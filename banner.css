@@ -1,0 +1,41 @@
+.banner {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+.banner.active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.banner.exit-left {
+  transform: translateX(-100%);  /* Desliza para fora da tela à esquerda */
+}
+
+.banner.exit-right {
+  transform: translateX(100%);  /* Desliza para fora da tela à direita */
+}
+  
+.banner img {
+    border-radius: 20px;
+    align-self: center;
+    align-items: center;
+  }
+  
+.icon {
+    display: block;
+    margin-bottom: 10px;
+    }
+
+.banner .inputs {
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.banner .inputs input {
+    cursor: pointer;
+}
