@@ -15,7 +15,7 @@ function bannerConfig() {
         sBannerInput
     ]
 
-    function changeBanner(activeBanner, direction) {
+    function changeBanner(activeBanner) {
         banners.forEach(banner => {
             if (banner === activeBanner) {
                 banner.style.display = "block";
