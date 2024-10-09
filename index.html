@@ -3,6 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link biblioteca slick -->
+    <!-- Inclua o CSS do Slick -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Inclua o CSS adicional (opcional) -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <!-- Inclua o jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Inclua o JavaScript do Slick -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
     <!-- link de fontes -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +28,7 @@
     <link rel="stylesheet" href="style.css">
     <title>SleeperBit</title>
 </head>
+
 <body>
     <div class="header">
         <div class="links">
@@ -78,28 +89,19 @@
 
         <div class="img-categories">
             <div class="images">
-                <p>
-                    <svg id="left-arrow" fill="white" class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>
-                </p>
+            
                 <div class="carousel">
                     <div class="carousel-items" id="carousel-items">
-                        <img id="carousel-item" class="carrousel-item" src="./src/icons/main-page-product-1.png" alt="">
-                        <img id="carousel-item" class="carrousel-item" src="./src/icons/main-page-product-2.png" alt="">
-                        <img id="carousel-item" class="carrousel-item" src="./src/icons/main-page-product-1.png" alt="">
-                        <img id="carousel-item" class="carrousel-item" src="./src/icons/main-page-product-1.png" alt="">
-                        <img id="carousel-item" class="carrousel-item" src="./src/icons/main-page-product-1.png" alt="">
-                        <img id="carousel-item" class="carrousel-item" src="./src/icons/main-page-product-1.png" alt="">
+                        <img id="carousel-item-1" class="carousel-item" src="./src/icons/main-page-product-1.png" alt="">
+                        <img id="carousel-item-2" class="carousel-item" src="./src/icons/main-page-product-6.png" alt="">
+                        <img id="carousel-item-4" class="carousel-item" src="./src/icons/main-page-product-3.png" alt="">
+                        <img id="carousel-item-5" class="carousel-item" src="./src/icons/main-page-product-5.png" alt="">
+                        <img id="carousel-item-6" class="carousel-item" src="./src/icons/main-page-product-2.png" alt="">
+                        <img id="carousel-item-6" class="carousel-item" src="./src/icons/main-page-product-4.png" alt="">
+
                     </div>
                 </div>
-                <p>
-                    <svg id="right-arrow" fill="white" class='fontawesomesvg' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"/></svg>
-                </p>
             </div>
-            <!-- <div class="categories-name">
-                <span>Monitores</span>
-                <span>Headphones</span>
-                <span>Teclados</span>
-            </div> -->
         </div>
     </div>
 
@@ -113,7 +115,13 @@
             <span>Design Minimalista e Limpo.</span>
         </div>
 
-        
+
+        <div class="footer">
+            <div class="footer-texts">
+                <span>SleeperBit: Design antigo, Tecnologia avançada.</span>
+                <p class="copyright">2024 Copyright © Todos os direitos reservados.</p>
+            </div>
+        </div>
 
 <script src="./script.js"></script>
     
