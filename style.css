@@ -204,16 +204,7 @@ body {
     margin-top: 200px;
     position: relative;
     width: 70vw;
-    background-color:gray;
     overflow: hidden;
-}
-
-#left-arrow, #right-arrow {
-    margin-top: 200px;
-    background-color: #e09a30;
-    color: white;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 
 .img-categories .images .carousel .carousel-items {
@@ -222,13 +213,12 @@ body {
 }
 
 .img-categories .images .carousel img {
-    min-width: 400px; /* largura de cada item */
-    background-color: #f1f1f1;
+    max-width: 400px; /* largura de cada item */
+    cursor: grab;
     text-align: center;
     padding: 20px;
     box-sizing: border-box;
 }
-
 
 /* teste acima */
 
@@ -398,7 +388,22 @@ body {
     align-items: center;
     display: flex;
     justify-content: center;
+    margin-bottom: 120px;
 }
 
+.footer {
+    margin-top: 40px;
+    background-color: #e9edf8;
+    margin: 0;
+    display: relative;
+    padding: 20px;
+}
 
-
+.footer .footer-texts {
+    margin-top: 25px;
+    margin-left: 41vw;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(141, 141, 141);
+}
